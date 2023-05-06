@@ -1,5 +1,5 @@
 {
-  "name": "theme-vdoing-blog",
+  "name": "vdoing-template",
   "version": "1.0.0",
   "scripts": {
     "dev": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress dev docs",
