@@ -16,14 +16,13 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
 
-      - name: build project
+      - name: build project ⚗️
         uses: actions/setup-node@v3
-         with:
-           node-version:16
+        with:
+          node-version: 16
       - run: |
           yarn
           yarn build
-
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         env: # 设置环境变量
